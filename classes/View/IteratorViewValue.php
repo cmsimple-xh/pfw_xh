@@ -28,6 +28,7 @@ class IteratorViewValue extends ViewValue implements Iterator
     /**
      * @return mixed
      */
+    #[\ReturnTypeWillChange]
     public function current()
     {
         return self::create($this->view_, $this->value_->current());
@@ -36,6 +37,7 @@ class IteratorViewValue extends ViewValue implements Iterator
     /**
      * @return int
      */
+    #[\ReturnTypeWillChange]
     public function key()
     {
         return self::create($this->view_, $this->value_->key());
@@ -44,6 +46,7 @@ class IteratorViewValue extends ViewValue implements Iterator
     /**
      * @return void
      */
+    #[\ReturnTypeWillChange]
     public function next()
     {
         $this->value_->next();
@@ -52,6 +55,7 @@ class IteratorViewValue extends ViewValue implements Iterator
     /**
      * @return void
      */
+    #[\ReturnTypeWillChange]
     public function rewind()
     {
         $this->value_->rewind();
@@ -60,6 +64,7 @@ class IteratorViewValue extends ViewValue implements Iterator
     /**
      * @return bool
      */
+    #[\ReturnTypeWillChange]
     public function valid()
     {
         return $this->value_->valid();
