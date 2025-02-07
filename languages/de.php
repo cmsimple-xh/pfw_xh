@@ -1,5 +1,7 @@
 <?php
 
+$plugin_tx['pfw']['menu_main'] = "Info";
+
 $plugin_tx['pfw']['plural_suffix']="\$n != 1";
 
 $plugin_tx['pfw']['alt_logo']="Wirbelnder Zauberstab";
@@ -13,5 +15,5 @@ $plugin_tx['pfw']['syscheck_plugin']="das CMSimple_XH-Plugin '%s' installiert is
 $plugin_tx['pfw']['syscheck_success']="Okay";
 $plugin_tx['pfw']['syscheck_title']="System-Prüfung";
 $plugin_tx['pfw']['syscheck_warning']="Warnung";
-$plugin_tx['pfw']['syscheck_writable']="'%s' is writable";
+$plugin_tx['pfw']['syscheck_writable']="'%s' ist beschreibbar";
 $plugin_tx['pfw']['syscheck_xhversion']="die CMSimple_XH-Version mindestens %s ist";

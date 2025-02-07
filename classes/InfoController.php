@@ -27,17 +27,18 @@ class InfoController
 {
     public function defaultAction()
     {
-        global $pth;
+        global $pth, $sl;
 
         (new View('pfw'))
             ->template('info')
             ->data([
-                'logo' => "{$pth['folder']['plugins']}pfw/pfw.png",
+                'logo' => "{$pth['folder']['plugins']}pfw/images/pfw.png",
                 'version' => Plugin::VERSION,
                 'checks' => (new SystemCheckService)
-                    ->minPhpVersion('5.4.0')
-                    ->minXhVersion('1.6.3')
-                    ->writable("{$pth['folder']['plugins']}pfw/css/")
+                    ->minPhpVersion('7.4.0')
+                    ->minXhVersion('1.7.3')
+                    ->writable("{$pth['folder']['plugins']}pfw/css/stylesheet.css")
+                    ->writable("{$pth['folder']['plugins']}pfw/languages/$sl.php")
                     ->writable("{$pth['folder']['plugins']}pfw/languages/")
                     ->getChecks()
             ])
