@@ -1,10 +1,10 @@
-[![Latest Version: 0.2.0](https://img.shields.io/badge/Latest%20Version-0.2.0-red.svg)](https://github.com/cmb69/pfw_xh/releases/tag/0.2.0)
+[![Latest Version: 0.3.0](https://img.shields.io/badge/Latest%20Version-0.3.0-red.svg)](https://github.com/cmsimple-xh/pfw_xh/releases)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 
 Introduction
 ============
 
-[Pfw_XH](http://3-magi.net/?CMSimple_XH/Pfw_XH) is an
+Pfw_XH is an
 [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
 framework for [CMSimple_XH](http://www.cmsimple-xh.org/) plugins.
 It is supposed to (1) yield more clearly structured plugins, to (2) abstract
